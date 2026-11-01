@@ -2,5 +2,5 @@
    O checkout do site original estava em dólar. Ele não foi reaproveitado
    para evitar cobrar um valor diferente do anunciado em reais. */
 window.ATLAS_CONFIG = {
-  checkoutBasico: ""
+  checkoutBasico: "https://go.perfectpay.com.br/PPU38CQHEAJ"
 };
