@@ -1,0 +1,52 @@
+ATLAS VISUAL DE ANÁLISES CLÍNICAS — SITE EM PORTUGUÊS
+
+DEPLOY
+Extraia o ZIP e publique a pasta que contém index.html.
+Site estático: não precisa de npm, build, banco de dados ou servidor próprio.
+Cloudflare Pages: framework Nenhum; comando de build vazio; saída .
+Vercel: Other; sem comando de build; saída .
+Netlify: arraste a pasta para o deploy manual.
+
+CHECKOUT
+Abra config.js e preencha checkoutBasico com o link da sua oferta de R$ 14,90.
+Exemplo: checkoutBasico: "https://SEU-CHECKOUT"
+O checkout do original cobrava em dólar, então não foi reaproveitado.
+Enquanto o link estiver vazio, o botão de compra informa "Compra em breve".
+Os demais botões levam até a oferta única na mesma página.
+
+ALTERAÇÕES
+Textos da página em português brasileiro.
+Plano único: Básico — 80 mapas — R$ 14,90, pagamento único.
+Retirados: segundo plano, referências a 160 mapas, bônus Premium,
+modal de upsell, perguntas de comparação e preços em dólar.
+O plano básico lista somente os itens incluídos.
+Capa promocional em português com referência a 80 mapas.
+Prévia ampliável dos mapas, galeria, depoimentos, FAQ e temas preservados.
+
+IMAGENS E CONTEÚDO
+As imagens das páginas do atlas foram preservadas em espanhol.
+As mensagens e figurinhas dos 10 depoimentos estão em português,
+mantendo o sentido dos relatos da página original.
+A capa principal é uma nova arte promocional em português.
+Este ZIP contém o site e suas imagens; NÃO contém o PDF dos 80 mapas.
+O conteúdo do atlas não foi criado nem traduzido neste trabalho.
+As informações sobre alunos, especialista, depoimentos e garantia foram
+trazidas da página original fornecida pelo usuário, sem verificação independente.
+Confirme que continuam correspondendo ao produto e à oferta antes de anunciar.
+A identificação e o suporte do vendedor devem estar corretos no checkout.
+A garantia anunciada no site foi mantida em 30 dias.
+
+ARQUIVOS
+index.html: textos e estrutura da página.
+config.js: link do checkout básico.
+app.js: botões, galerias e ampliação de imagens.
+ajustes.css: ajustes de layout.
+css/: estilos principais do original.
+images/: imagens locais utilizadas.
+termos.html e privacidade.html: informações em português.
+
+RASTREAMENTO
+Não foram incluídos o Sentinel Tracker ou a geolocalização do original.
+Nenhum Pixel Meta ou API de Conversões foi adicionado.
+A fonte pode ser carregada pelo Google Fonts, com alternativa local no navegador.
+Pagamentos e entrega do PDF devem ser configurados no gateway.
